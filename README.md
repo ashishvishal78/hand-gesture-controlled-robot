@@ -3,4 +3,4 @@
 - After creating dataset, Run model_train.py with valid path of datasets to train the machine learning model.
 - Upload copy_wireless_esp.ino script into NodeMCU.
 - After model training, run gesture_prediction.py and press 's' to start prediction of gestures and send command to NodeMCU.
-- **NOTE:- NodeMCU and Laptop must be connected to same wifi/internet before running the gesture_prediction.py**
+- **NOTE:- NodeMCU and Laptop must be connected to wifi/internet before running the gesture_prediction.py**
