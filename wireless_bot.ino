@@ -25,7 +25,6 @@ char data;
 /********************************************* FORWARD *****************************************************/
 void MotorForward(void)  
 {
-  Serial.println("mf");
   analogWrite(leftMotorENB,speedl);
   analogWrite(rightMotorENB,speedr);
   digitalWrite(leftMotorForward,HIGH);
@@ -45,7 +44,7 @@ void MotorBackward(void)
   digitalWrite(rightMotorForward,LOW);
 }
 /********************************************* TURN LEFT *****************************************************/
-void TurnRight(void)  
+void TurnLeft(void)  
 {
   Serial.println("mr");
   analogWrite(leftMotorENB,speedl);
@@ -56,7 +55,7 @@ void TurnRight(void)
   digitalWrite(leftMotorBackward,HIGH);  
 }
 /********************************************* TURN RIGHT *****************************************************/
-void TurnLeft(void)  
+void TurnRight(void)  
 {
   Serial.println("ml");
   analogWrite(leftMotorENB,speedl);
